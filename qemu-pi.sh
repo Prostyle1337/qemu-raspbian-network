@@ -27,7 +27,7 @@
 IMG=$1
 KERNEL=kernel-qemu-4.4.34-jessie
 
-NO_NETWORK=1            # set to 1 to skip network configuration
+NO_NETWORK=0            # set to 1 to skip network configuration
 BRIDGE=br0              # name for the bridge we will create to share network with the raspbian img
 MAC='52:54:be:36:42:a9' # comment this line for random MAC (maybe annoying if on DHCP)
 BINARY_PATH=/usr/bin    # path prefix for binaries
